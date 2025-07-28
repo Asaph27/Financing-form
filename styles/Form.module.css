@@ -1,0 +1,68 @@
+.formContainer {
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.08);
+  padding: 2.5rem 2rem;
+  max-width: 400px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.formTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #22223b;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.formLabel {
+  font-size: 1rem;
+  color: #4a4e69;
+  font-weight: 500;
+}
+
+.formInput, .formTextarea {
+  border: 1px solid #c9ada7;
+  border-radius: 0.75rem;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  background: #f2e9e4;
+  color: #22223b;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.formInput:focus, .formTextarea:focus {
+  border: 1.5px solid #9a8c98;
+}
+
+.formTextarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.formButton {
+  background: linear-gradient(90deg, #9a8c98 0%, #4a4e69 100%);
+  color: #fff;
+  border: none;
+  border-radius: 0.75rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.06);
+}
+
+.formButton:hover {
+  background: linear-gradient(90deg, #4a4e69 0%, #9a8c98 100%);
+}
